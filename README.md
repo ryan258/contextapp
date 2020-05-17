@@ -5,3 +5,8 @@ Lessons 1 - from the [React Context & Hooks Tutorial Playlist](https://www.youtu
 ## Useful Links
 
 - [ReactJS.org Context Docs](https://reactjs.org/docs/context.html)
+
+## Benefits of Using .Consumer > static
+
+- You can use .Consumer in functional components.
+- You can consume multiple contexts in one component.
