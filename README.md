@@ -10,3 +10,12 @@ Lessons 1 - from the [React Context & Hooks Tutorial Playlist](https://www.youtu
 
 - You can use .Consumer in functional components.
 - You can consume multiple contexts in one component.
+
+## Updating Context Data
+
+- You can add functions to your Context.Provider
+- Pass it down along with state state in the provider.
+- Destructure the function out of the context.)
+- (Add that function to a component using the context.
+- Then we should have access to this function in any component that consumes the context.
+- Render the component somewhere. :)
