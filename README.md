@@ -23,3 +23,7 @@ Lessons 1 - from the [React Context & Hooks Tutorial Playlist](https://www.youtu
 ## Multiple Contexts
 
 - Yes, you can have multiple contexts, best broken up into seperate files.
+- Remember that each consumer will be expecting a function(that takes a context object) that returns some JSX.
+- Note how the Parent consumer wraps the child.
+- What's nice is that the two context work independently of one another. :)
+- But this is where REACT HOOKS come into play and save us from having to use all this consumer stuff.
