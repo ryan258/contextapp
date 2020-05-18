@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Lessons 1 - from the [React Context & Hooks Tutorial Playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI) by [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
+Lessons 1 - 8 from the [React Context & Hooks Tutorial Playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI) by [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
 
 ## Useful Links
 
@@ -27,3 +27,5 @@ Lessons 1 - from the [React Context & Hooks Tutorial Playlist](https://www.youtu
 - Note how the Parent consumer wraps the child.
 - What's nice is that the two context work independently of one another. :)
 - But this is where REACT HOOKS come into play and save us from having to use all this consumer stuff.
+
+For Lessons 9 - go to the [Hooks Repo](https://github.com/ryan258/hooksapp) to continue following along.
