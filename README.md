@@ -19,3 +19,7 @@ Lessons 1 - from the [React Context & Hooks Tutorial Playlist](https://www.youtu
 - (Add that function to a component using the context.
 - Then we should have access to this function in any component that consumes the context.
 - Render the component somewhere. :)
+
+## Multiple Contexts
+
+- Yes, you can have multiple contexts, best broken up into seperate files.
