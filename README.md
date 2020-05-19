@@ -59,3 +59,8 @@ What's nice about the useContext() hook is that we can use it as many times as w
 - then we return the Provider where we pass the data and nest props.children.
 - now we can add and wrap it in a component
 - consumer the context in a child component with a useContext() hook
+
+# Lesson 16 - Switch over to a New Project where we're going to be Making a Reading List
+
+[Lessons for the Booklist project continue here.](https://www.youtube.com/watch?v=v1s_rbZbqQI)
+[Repo here](https://github.com/ryan258/contexthooksbooklist)
