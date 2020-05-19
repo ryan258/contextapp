@@ -51,3 +51,11 @@ What's nice about the useContext() hook is that we can use it as many times as w
 - Again, import useContext()
 - Turn the class component into a functional component
 - Destructure what you want from .useContext(context)
+
+## Create a Context with Functional Components
+
+- we add props because we're going to need to do a props.children
+- useState() returns data and a function to update that data, so we'll destructure them from our useState
+- then we return the Provider where we pass the data and nest props.children.
+- now we can add and wrap it in a component
+- consumer the context in a child component with a useContext() hook
