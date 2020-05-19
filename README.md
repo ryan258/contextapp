@@ -32,6 +32,8 @@ For Lessons 9 - 12 go to the [Hooks Repo](https://github.com/ryan258/hooksapp) t
 
 # Now we're picking up on lesson #13
 
+## Hooks with Context
+
 If we're using the functional component we can't use the static contextType method of consuming the context. (We could use a .Consumer, but this is much cleaner)
 
 So we're going to switch the class component to a functional component and use the useContext() hook.
@@ -41,3 +43,11 @@ So we're going to switch the class component to a functional component and use t
 - Use the useContext() hook to consume the context inside the functional component
 - Pass useContext() the context we want to use and that will give us access to everything we are passing through the .Provider()
 - Then we'll destructure what we want from the context
+
+## Multiple Contexts Using Hooks
+
+What's nice about the useContext() hook is that we can use it as many times as we want in a functional component.
+
+- Again, import useContext()
+- Turn the class component into a functional component
+- Destructure what you want from .useContext(context)
