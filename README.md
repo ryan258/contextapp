@@ -28,4 +28,16 @@ Lessons 1 - 8 from the [React Context & Hooks Tutorial Playlist](https://www.you
 - What's nice is that the two context work independently of one another. :)
 - But this is where REACT HOOKS come into play and save us from having to use all this consumer stuff.
 
-For Lessons 9 - go to the [Hooks Repo](https://github.com/ryan258/hooksapp) to continue following along.
+For Lessons 9 - 12 go to the [Hooks Repo](https://github.com/ryan258/hooksapp) to continue following along.
+
+# Now we're picking up on lesson #13
+
+If we're using the functional component we can't use the static contextType method of consuming the context. (We could use a .Consumer, but this is much cleaner)
+
+So we're going to switch the class component to a functional component and use the useContext() hook.
+
+- Import useContext
+- Rewrite the component as a functional component
+- Use the useContext() hook to consume the context inside the functional component
+- Pass useContext() the context we want to use and that will give us access to everything we are passing through the .Provider()
+- Then we'll destructure what we want from the context
